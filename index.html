@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Product Table – Local & Global</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin: 0;
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-radius: 10px;
+            overflow: hidden;
+            background: white;
+        }
+
+        th, td {
+            padding: 14px 12px;
+            text-align: left;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        th {
+            background-color: #1a5276;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9fbfd;
+        }
+
+        tr:hover {
+            background-color: #e8f4fc;
+        }
+
+        td ul {
+            padding-left: 20px;
+            margin: 6px 0;
+            font-size: 0.95em;
+            color: #333;
+        }
+
+        .icon i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 26px;
+        }
+
+        .product-name {
+            font-weight: bold;
+            color: #154360;
+        }
+
+        .category {
+            background-color: #d5e8f7;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: #1a5276;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h2>🛒 E-Commerce Product Showcase (16+ Platforms)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>E-Commerce Firm</th>
+                <th>Icon</th>
+                <th>Product Name</th>
+                <th>Product Category</th>
+                <th>Product Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 1. Jumia -->
+            <tr>
+                <td>Jumia</td>
+                <td class="icon"><i class="fas fa-shopping-bag" style="color: #E31937;"></i></td>
+                <td class="product-name">Jumia Official Wireless Earbuds</td>
+                <td class="category">Electronics</td>
+                <td>
+                    <ul>
+                        <li>Bluetooth 5.3 with low latency</li>
+                        <li>20-hour battery with case</li>
+                        <li>Built-in mic for calls</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 2. Kilimall -->
+            <tr>
+                <td>Kilimall</td>
+                <td class="icon"><i class="fas fa-box" style="color: #0099CC;"></i></td>
+                <td class="product-name">Kilimall Smart LED Desk Lamp</td>
+                <td class="category">Home</td>
+                <td>
+                    <ul>
+                        <li>Adjustable brightness & color temp</li>
+                        <li>USB charging port</li>
+                        <li>Touch control panel</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 3. Jiji -->
+            <tr>
+                <td>Jiji</td>
+                <td class="icon"><i class="fas fa-comments-dollar" style="color: #FF5722;"></i></td>
+                <td class="product-name">Brand New Samsung Galaxy A14</td>
+                <td class="category">Phones</td>
+                <td>
+                    <ul>
+                        <li>6.6" display, 64GB storage</li>
+                        <li>5000mAh battery</li>
+                        <li>Sold by verified seller</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 4. Sky.Garden -->
+            <tr>
+                <td>Sky.Garden</td>
+                <td class="icon"><i class="fas fa-mobile" style="color: #2196F3;"></i></td>
+                <td class="product-name">Sky.Garden 20GB Internet Bundle</td>
+                <td class="category">Digital</td>
+                <td>
+                    <ul>
+                        <li>Valid for 30 days</li>
+                        <li>Instant delivery via SMS</li>
+                        <li>Works on Safaricom & Airtel KE</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 5. Masoko -->
+            <tr>
+                <td>Masoko</td>
+                <td class="icon"><i class="fas fa-tv" style="color: #00B0F0;"></i></td>
+                <td class="product-name">Samsung 32-inch Crystal HD Smart TV</td>
+                <td class="category">Electronics</td>
+                <td>
+                    <ul>
+                        <li>Full HD resolution with Crystal Processor</li>
+                        <li>Smart TV with Netflix, YouTube & Samsung TV Plus</li>
+                        <li>3 HDMI ports, Bluetooth audio support</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 6. Amazon -->
+            <tr>
+                <td>Amazon</td>
+                <td class="icon"><i class="fab fa-amazon" style="color: #FF9900;"></i></td>
+                <td class="product-name">Kindle Paperwhite E-Reader</td>
+                <td class="category">Books & Media</td>
+                <td>
+                    <ul>
+                        <li>6.8" glare-free display</li>
+                        <li>Weeks of battery life</li>
+                        <li>Waterproof design</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 7. eBay -->
+            <tr>
+                <td>eBay</td>
+                <td class="icon"><i class="fab fa-ebay" style="color: #0064D2;"></i></td>
+                <td class="product-name">Vintage Rolex Watch (Pre-owned)</td>
+                <td class="category">Luxury</td>
+                <td>
+                    <ul>
+                        <li>Authenticity guaranteed</li>
+                        <li>Box & papers included</li>
+                        <li>Free global shipping</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 8. Alibaba -->
+            <tr>
+                <td>Alibaba</td>
+                <td class="icon"><i class="fab fa-alibaba" style="color: #FF6A00;"></i></td>
+                <td class="product-name">Wholesale Cotton Face Towels (100 pcs)</td>
+                <td class="category">Bulk Goods</td>
+                <td>
+                    <ul>
+                        <li>100% cotton, 50x90cm</li>
+                        <li>MOQ: 50 pieces</li>
+                        <li>Custom logo printing available</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 9. Shopify -->
+            <tr>
+                <td>Shopify</td>
+                <td class="icon"><i class="fab fa-shopify" style="color: #96BF48;"></i></td>
+                <td class="product-name">Shopify Premium Theme: "Nova"</td>
+                <td class="category">Digital Product</td>
+                <td>
+                    <ul>
+                        <li>Fully responsive design</li>
+                        <li>One-click demo import</li>
+                        <li>6 months support included</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 10. Takealot -->
+            <tr>
+                <td>Takealot</td>
+                <td class="icon"><i class="fas fa-truck-loading" style="color: #00A651;"></i></td>
+                <td class="product-name">Takealot Gaming Mouse RGB</td>
+                <td class="category">Gaming</td>
+                <td>
+                    <ul>
+                        <li>7200 DPI optical sensor</li>
+                        <li>6 programmable buttons</li>
+                        <li>Ergonomic for right hand</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 11. Konga -->
+            <tr>
+                <td>Konga</td>
+                <td class="icon"><i class="fas fa-store-alt" style="color: #FF6B00;"></i></td>
+                <td class="product-name">Konga Kitchen Non-Stick Cookware Set</td>
+                <td class="category">Home & Kitchen</td>
+                <td>
+                    <ul>
+                        <li>5-piece aluminum set</li>
+                        <li>PFOA-free coating</li>
+                        <li>Induction compatible</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- 12. Mall for Africa -->
+            <tr>
+                <td>Mall for Africa</td>
